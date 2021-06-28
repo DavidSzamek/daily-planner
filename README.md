@@ -1,18 +1,16 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# <Third-Party APIs: Work Day Scheduler>
 
-## Your Task
+## The Task
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+The goal of this task was to create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+This required the use of the [Moment.js](https://momentjs.com/) library to work with date and time and was implemented to display the current date and time when the calendar is loaded. 
 
-## User Story
+Furthermore, it required the use of jQuery update the clock, add the past, present and future CSS class colours and to save the user inputs to localStorage. 
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+I found jQuery very difficult to work with at the beginning but after playing with it for a few hours it really simplified/streamlined the process of implementing actions onto the HTML page. 
+
+Lastly, I changed the folder name of my Assets to assets after uploading it to Github and while I thought my commits were being documented they were not updating because of this. 
 
 ## Acceptance Criteria
 
@@ -31,59 +29,18 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 ```
+## Usage 
+
+The following image demonstrates the application appearance:
+
+![A daily planner calendar.](./Assets/images/sample.png)
 
 The following animation demonstrates the application functionality:
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/images/function.gif)
 
+## The Deployed Website 
 
-## Grading Requirements
+The application can be accessed using the following link: 
 
-This homework is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * Uses a date utility library to work with date and time
-
-### Deployment: 32%
-
-* Application deployed at live URL
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the homework instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+[Link to website](https://davidszamek.github.io/daily-planner/index.html "Daily Planner Homepage")
